@@ -18,7 +18,7 @@ class BMIResult extends StatelessWidget {
         leading: IconButton(onPressed: (){
           Navigator.pop(context);
         }, icon: Icon(Icons.keyboard_arrow_left)),
-        title: Text('BMI Result'),
+        title: Text('Body Mass Result'),
       ),
       body: Center(
         child: Column(
@@ -32,7 +32,7 @@ class BMIResult extends StatelessWidget {
               ),
             ),
             Text(
-              'Results : $result',
+              'Your Body Mass result is : $result',
               style: TextStyle(
                 fontSize: 25.0,
                 fontWeight: FontWeight.bold,
